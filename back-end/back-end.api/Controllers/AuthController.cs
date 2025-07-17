@@ -17,6 +17,17 @@ public class AuthController : ControllerBase
         _repository = repo;
     }
     
+    [HttpPost(ApiRoutes.AuthController.Login)]
+    public async Task<ActionResult> Login([FromBody] Guid id){
+        User result = await _repository.GetById(id);
+
+        if(result.Id == Guid.Empty){
+            return NotFound();
+        }
+
+        return Ok(result);
+    }
+
     [HttpPost(ApiRoutes.AuthController.Register)]
     public async Task<ActionResult> Register([FromBody] RegisterRequest request)
     {

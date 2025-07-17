@@ -17,7 +17,7 @@ builder.Services.AddCors(options => {
 
 #region Database and Repositories
 
-string connectionString = builder.Configuration.GetConnectionString("Default");
+string connectionString = "Host=localhost;Port=5432;Database=AuthDB;Username=postgres;Password=postgres";
 
 builder.Services.AddDatabase(connectionString);
 

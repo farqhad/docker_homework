@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/farqhadd/docker_homework/back-end/back-end.api/back-end.api.csproj": {}
+    "/Users/apple/docker_homework/back-end/back-end.api/back-end.api.csproj": {}
   },
   "projects": {
-    "/home/farqhadd/docker_homework/back-end/back-end.api/back-end.api.csproj": {
+    "/Users/apple/docker_homework/back-end/back-end.api/back-end.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/farqhadd/docker_homework/back-end/back-end.api/back-end.api.csproj",
+        "projectUniqueName": "/Users/apple/docker_homework/back-end/back-end.api/back-end.api.csproj",
         "projectName": "back-end.api",
-        "projectPath": "/home/farqhadd/docker_homework/back-end/back-end.api/back-end.api.csproj",
-        "packagesPath": "/home/farqhadd/.nuget/packages/",
-        "outputPath": "/home/farqhadd/docker_homework/back-end/back-end.api/obj/",
+        "projectPath": "/Users/apple/docker_homework/back-end/back-end.api/back-end.api.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Users/apple/docker_homework/back-end/back-end.api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/farqhadd/.nuget/NuGet/NuGet.Config"
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/farqhadd/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj": {
-                "projectPath": "/home/farqhadd/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj"
+              "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj": {
+                "projectPath": "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj"
               },
-              "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
-                "projectPath": "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
+              "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
+                "projectPath": "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
               }
             }
           }
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -56,6 +56,10 @@
               "version": "[8.0.16, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[8.0.18, )"
             },
@@ -82,15 +86,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
+              "version": "[8.0.18, 8.0.18]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.16, 8.0.16]"
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[8.0.18, 8.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
+              "version": "[8.0.18, 8.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -101,21 +105,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/farqhadd/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj": {
+    "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/farqhadd/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
+        "projectUniqueName": "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
         "projectName": "back-end.data-access",
-        "projectPath": "/home/farqhadd/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
-        "packagesPath": "/home/farqhadd/.nuget/packages/",
-        "outputPath": "/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/",
+        "projectPath": "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Users/apple/docker_homework/back-end/back-end.data-access/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/farqhadd/.nuget/NuGet/NuGet.Config"
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -127,8 +131,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
-                "projectPath": "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
+              "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
+                "projectPath": "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
               }
             }
           }
@@ -143,7 +147,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -172,11 +176,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
+              "version": "[8.0.18, 8.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
+              "version": "[8.0.18, 8.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -184,21 +188,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
+    "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj",
+        "projectUniqueName": "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj",
         "projectName": "back-end.domain",
-        "projectPath": "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj",
-        "packagesPath": "/home/farqhadd/.nuget/packages/",
-        "outputPath": "/home/farqhadd/docker_homework/back-end/back-end.domain/obj/",
+        "projectPath": "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Users/apple/docker_homework/back-end/back-end.domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/farqhadd/.nuget/NuGet/NuGet.Config"
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -222,7 +226,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -241,11 +245,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
+              "version": "[8.0.18, 8.0.18]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.16, 8.0.16]"
+              "version": "[8.0.18, 8.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -253,7 +257,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
