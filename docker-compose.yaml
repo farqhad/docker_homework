@@ -1,0 +1,48 @@
+services:
+  dotnetapp:
+    build:
+      context: .
+      dockerfile: ./Backend/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  postgres:
+    image: postgres:latest
+    restart: always
+    container_name: postgres_container_echonet
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: LogDb
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: elestio/pgadmin:latest
+    restart: always
+    container_name: pgadmin_dock
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: secret{temproary}
+      PGADMIN_LISTEN_PORT: 8080
+    depends_on:
+      - postgres
+    ports:
+      - "0.0.0.0:8080:8080"
+    volumes:
+      - pgAdmin_data:/pgAdmin4/servers.json
+
+  frontend:
+    build:
+      context: ./frontend 
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173" 
+    depends_on:
+      - dotnetapp
+
+volumes:
+  postgres_data:
+  pgAdmin_data:

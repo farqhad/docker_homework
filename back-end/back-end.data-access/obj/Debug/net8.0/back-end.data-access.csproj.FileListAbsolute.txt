@@ -1,0 +1,15 @@
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.data-access.csproj.AssemblyReference.cache
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.data-access.GeneratedMSBuildEditorConfig.editorconfig
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.data-access.AssemblyInfoInputs.cache
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.data-access.AssemblyInfo.cs
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.data-access.csproj.CoreCompileInputs.cache
+/home/farqhadd/docker_homework/back-end/back-end.data-access/bin/Debug/net8.0/back-end.data-access.deps.json
+/home/farqhadd/docker_homework/back-end/back-end.data-access/bin/Debug/net8.0/back-end.data-access.dll
+/home/farqhadd/docker_homework/back-end/back-end.data-access/bin/Debug/net8.0/back-end.data-access.pdb
+/home/farqhadd/docker_homework/back-end/back-end.data-access/bin/Debug/net8.0/back-end.domain.dll
+/home/farqhadd/docker_homework/back-end/back-end.data-access/bin/Debug/net8.0/back-end.domain.pdb
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.A996A07E.Up2Date
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.data-access.dll
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/refint/back-end.data-access.dll
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/back-end.data-access.pdb
+/home/farqhadd/docker_homework/back-end/back-end.data-access/obj/Debug/net8.0/ref/back-end.data-access.dll

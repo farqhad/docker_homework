@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aU18HO2LFeE=",
+  "success": true,
+  "projectFilePath": "/home/farqhadd/docker_homework/back-end/back-end.domain/back-end.domain.csproj",
+  "expectedPackageFiles": [
+    "/home/farqhadd/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/home/farqhadd/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

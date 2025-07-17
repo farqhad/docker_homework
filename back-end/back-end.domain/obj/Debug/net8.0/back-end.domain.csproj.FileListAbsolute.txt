@@ -1,0 +1,11 @@
+/home/farqhadd/docker_homework/back-end/back-end.domain/bin/Debug/net8.0/back-end.domain.deps.json
+/home/farqhadd/docker_homework/back-end/back-end.domain/bin/Debug/net8.0/back-end.domain.dll
+/home/farqhadd/docker_homework/back-end/back-end.domain/bin/Debug/net8.0/back-end.domain.pdb
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.AssemblyInfoInputs.cache
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.AssemblyInfo.cs
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.csproj.CoreCompileInputs.cache
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.dll
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/refint/back-end.domain.dll
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.pdb
+/home/farqhadd/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/ref/back-end.domain.dll
