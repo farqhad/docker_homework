@@ -2618,19 +2618,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/apple/.nuget/packages/": {}
+    "/Users/atillaismayil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/docker_homework/back-end/back-end.api/back-end.api.csproj",
+      "projectUniqueName": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.api/back-end.api.csproj",
       "projectName": "back-end.api",
-      "projectPath": "/Users/apple/docker_homework/back-end/back-end.api/back-end.api.csproj",
-      "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/docker_homework/back-end/back-end.api/obj/",
+      "projectPath": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.api/back-end.api.csproj",
+      "packagesPath": "/Users/atillaismayil/.nuget/packages/",
+      "outputPath": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/apple/.nuget/NuGet/NuGet.Config"
+        "/Users/atillaismayil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2642,11 +2642,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj": {
-              "projectPath": "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj"
+            "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj": {
+              "projectPath": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj"
             },
-            "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
-              "projectPath": "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
+            "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
+              "projectPath": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
             }
           }
         }
@@ -2705,7 +2705,7 @@
             "version": "[8.0.18, 8.0.18]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
             "version": "[8.0.18, 8.0.18]"
           },
           {

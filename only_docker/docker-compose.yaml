@@ -1,0 +1,30 @@
+services:
+  dotnetapp:
+    image: farqhaddd/auth-api:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+     - '5243:8080'
+
+  frontend:
+    image: farqhaddd/auth-front:latest
+    ports:
+      - "5173:5173" 
+    depends_on:
+      - dotnetapp
+
+  postgres:
+    image: postgres:latest
+    restart: always
+    container_name: postgres_container_auth
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: AuthDB 
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

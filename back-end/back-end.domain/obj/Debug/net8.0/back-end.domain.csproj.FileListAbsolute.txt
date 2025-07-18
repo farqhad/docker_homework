@@ -21,3 +21,15 @@
 /Users/apple/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/refint/back-end.domain.dll
 /Users/apple/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.pdb
 /Users/apple/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/ref/back-end.domain.dll
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/bin/Debug/net8.0/back-end.domain.deps.json
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/bin/Debug/net8.0/back-end.domain.dll
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/bin/Debug/net8.0/back-end.domain.pdb
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.AssemblyInfoInputs.cache
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.AssemblyInfo.cs
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.csproj.CoreCompileInputs.cache
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.sourcelink.json
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.dll
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/refint/back-end.domain.dll
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/back-end.domain.pdb
+/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/obj/Debug/net8.0/ref/back-end.domain.dll

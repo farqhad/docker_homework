@@ -732,19 +732,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/apple/.nuget/packages/": {}
+    "/Users/atillaismayil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
+      "projectUniqueName": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
       "projectName": "back-end.data-access",
-      "projectPath": "/Users/apple/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
-      "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/docker_homework/back-end/back-end.data-access/obj/",
+      "projectPath": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.data-access/back-end.data-access.csproj",
+      "packagesPath": "/Users/atillaismayil/.nuget/packages/",
+      "outputPath": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.data-access/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/apple/.nuget/NuGet/NuGet.Config"
+        "/Users/atillaismayil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -756,8 +756,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
-              "projectPath": "/Users/apple/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
+            "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/back-end.domain.csproj": {
+              "projectPath": "/Users/atillaismayil/Documents/docker_homework/back-end/back-end.domain/back-end.domain.csproj"
             }
           }
         }

@@ -1,10 +1,12 @@
 services:
   dotnetapp:
     build:
-      context: .
-      dockerfile: ./Backend/Dockerfile
+      context: ./back-end/
+      dockerfile: ./Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+     - '5243:8080'
 
   postgres:
     image: postgres:latest
@@ -19,6 +21,15 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+  frontend:
+    build:
+      context: ./front-end 
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173" 
+    depends_on:
+      - dotnetapp
+
   pgadmin:
     image: elestio/pgadmin:latest
     restart: always
@@ -29,19 +40,11 @@ services:
       PGADMIN_LISTEN_PORT: 8080
     depends_on:
       - postgres
+      - frontend
     ports:
       - "0.0.0.0:8080:8080"
     volumes:
       - pgAdmin_data:/pgAdmin4/servers.json
-
-  frontend:
-    build:
-      context: ./frontend 
-      dockerfile: Dockerfile
-    ports:
-      - "5173:5173" 
-    depends_on:
-      - dotnetapp
 
 volumes:
   postgres_data:

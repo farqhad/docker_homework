@@ -1,4 +1,6 @@
 using Backend.Api.Extensions;
+using Microsoft.EntityFrameworkCore;
+using Backend.DataAccess;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +19,7 @@ builder.Services.AddCors(options => {
 
 #region Database and Repositories
 
-string connectionString = "Host=localhost;Port=5432;Database=AuthDB;Username=postgres;Password=postgres";
+string connectionString = "Host=postgres;Port=5432;Database=AuthDB;Username=postgres;Password=postgres";
 
 builder.Services.AddDatabase(connectionString);
 
@@ -26,6 +28,14 @@ builder.Services.AddRepositories();
 #endregion
 
 WebApplication app = builder.Build();
+
+if (args.Contains("migrate"))
+{
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
+    return;
+}
 
 app.UseCors("AllowAll");
 
